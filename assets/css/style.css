@@ -60,12 +60,16 @@ a:hover {
 }
 
 .btn {
-    font-size: 1.2rem;
+    font-size: 1.2em;
 	font-weight: 900;
 
     border: 2px solid transparent;
     border-radius: 8px;
     background-color: transparent;
+}
+
+.text-hidden {
+	display: none
 }
 
 /* --------------------------------------------------------- dhstudio ribbon */
@@ -135,41 +139,18 @@ a:hover {
     background-size: cover;
 }
 
-#intro .intro-text p {
+#intro .intro-text h1 {
     font-family: 'goodgirlregular', serif;
-    font-size: 5vw;
 
     letter-spacing: 2px;
+	font-size: 4.7vw;
 
     color: #fbe655;
     text-shadow: 10px -10px 40px rgba(0, 0, 0, .4);
 
     -webkit-text-fill-color: #fbe655;
-    -webkit-text-stroke-width: .0001em;
+    -webkit-text-stroke-width: .001em;
     -webkit-text-stroke-color: #b02e0a;
-}
-
-#intro h1 {
-    font-size: 70px;
-    font-weight: 400;
-
-    margin: 15px 0 5px;
-
-    letter-spacing: -3px;
-    text-transform: uppercase;
-
-    color: #fff;
-}
-
-#intro p {
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 29px;
-
-    margin: 0 0 25px;
-    padding: 0 19%;
-
-    color: #ddd;
 }
 
 #intro .container {
@@ -217,11 +198,11 @@ a:hover {
 }
 
 #intro img {
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-delay: 850ms;
 }
 
-#intro p {
+#intro h1 {
 	animation-duration: 1s;
 	animation-delay: 750ms;
 }
