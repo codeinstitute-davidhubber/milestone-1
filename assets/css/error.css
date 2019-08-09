@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700|Roboto:100,300,400,500,700&display=swap');
+	       
+	   #errorpage
+	{
+	   position: relative;
+
+	   height: 100vh;
+	}
+
+	#errorpage .errorpage
+	{
+	   position: absolute;
+	   top: 50%;
+	   left: 50%;
+
+	   -webkit-transform: translate(-50%, -50%);
+	       -ms-transform: translate(-50%, -50%);
+	           transform: translate(-50%, -50%);
+	}
+
+	.errorpage
+	{
+	   line-height: 1.4;
+
+	   width: 100%;
+	   max-width: 767px;
+	   padding: 15px;
+
+	   text-align: center;
+	}
+
+	.errorpage .errorpages
+	{
+	   position: relative;
+
+	   height: 220px;
+	}
+
+	.errorpage .errorpages h1
+	{
+	   font-family: 'Roboto', sans-serif;
+	   font-size: 186px;
+	   font-weight: 500;
+
+	   position: absolute;
+	   top: 50%;
+	   left: 50%;
+
+	   margin: 0;
+
+	   -webkit-transform: translate(-50%, -50%);
+	       -ms-transform: translate(-50%, -50%);
+	           transform: translate(-50%, -50%);
+	   text-transform: uppercase;
+
+	   color: transparent;
+	   background: linear-gradient(130deg, rgba(227,133,61,1.00), rgba(232,83,50,1.00));
+	   -webkit-background-clip: text;
+	           background-clip: text;
+	}
+
+	.errorpage h2
+	{
+	   font-family: 'Exo', sans-serif;
+	   font-size: 33px;
+	   font-weight: 300;
+
+	   margin-top: 0;
+	   margin-bottom: 25px;
+
+	   letter-spacing: 3px;
+	   text-transform: uppercase;
+	}
+
+
+	.errorpage p
+	{
+	   font-family: 'Exo', sans-serif;
+	   font-size: 16px;
+	   font-weight: 300;
+
+	   margin-top: 0;
+	   margin-bottom: 25px;
+	   padding: 0 20px;
+	}
+
+
+	.errorpage a
+	{
+	   font-family: 'Exo', sans-serif;
+	   font-weight: 300 !important;
+
+	   text-decoration: none;
+
+	   color: rgba(227,133,61,1.00);
+	   border-bottom: 1px dashed rgba(227,133,61,1.00);
+	   border-radius: 2px;
+	}
+
+
+	.errorpage a.errorpagehref
+	{
+	   font-size: 130%;
+	   font-weight: 900;
+	   line-height: 50px;
+	}
+
+	.errorpage-social > a
+	{
+	   font-size: 14px;
+	   line-height: 40px;
+
+	   display: inline-block;
+
+	   width: 40px;
+	   height: 40px;
+	   margin: 3px;
+
+	   -webkit-transition: .2s all;
+	           transition: .2s all;
+
+	   color: rgba(227,133,61,1.00);
+	   border: 1px solid #efefef;
+	   border-radius: 50%;
+	}
+	.errorpage-social > a:hover
+	{
+	   color: #fff;
+	   border-color: rgba(227,133,61,1.00);
+	   background-color: rgba(227,133,61,1.00);
+	}
+
+	@media only screen and (max-width: 480px)
+	{
+	   .errorpage .errorpage-404
+	   {
+	       position: relative;
+
+	       height: 168px;
+	   }
+
+	   .errorpage .errorpage-404 h1
+	   {
+	       font-size: 142px;
+	   }
+
+	   .errorpage h2
+	   {
+	       font-size: 22px;
+	   }
+	}

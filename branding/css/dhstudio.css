@@ -1,0 +1,197 @@
+/* Small Circle Brand */
+
+/* ------   Place before '</body>' -------
+
+<a href="https://dhstudio.design/">
+<div class="dhstudio-link dhstudio-H-button-bottom dhstudio-H-button-right dhstudio-H-button-bottom-hack">
+    <div class="dhstudio-link-wrap">
+        <div class="dhstudio-link-logo-big">
+        </div>
+    </div>
+</div></a>
+
+----------------------------------------*/
+
+[class^=dhstudio-link-logo-] {
+    padding: 0 !important;
+
+    cursor: pointer;
+
+    opacity: .5;
+    background: url('../../branding/img/dhstudio-158x40.png') no-repeat;
+}
+
+[class^=dhstudio-link-logo-big] {
+    width: 40px !important;
+    height: 45px !important;
+    margin: 5px 5px 0 5px !important;
+}
+
+[class^=dhstudio-link-logo-big]:hover {
+    opacity: 1;
+}
+
+.dhstudio-link-logo-big {
+    background-position: 0 0;
+}
+
+.dhstudio-link-logo-big:hover {
+    background-position: -50px 0;
+}
+
+[class^=dhstudio-link-logo-small] {
+    width: 25px;
+    height: 25px;
+    margin: 5px 5px 5px 5px;
+}
+
+.dhstudio-link-logo-small {
+    background-position: -99px -8px;
+}
+
+.dhstudio-link-logo-small:hover {
+    opacity: 1;
+    background-position: -134px -8px;
+}
+
+.dhstudio-link-logo-big,
+.dhstudio-link-logo-small {
+    animation: grow .5s;
+}
+
+@keyframes grow {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    [class^=dhstudio-link-logo-] {
+        background: url('../../branding/img/dhstudio-286x80.png') no-repeat;
+        background-size: 143px 130px;
+    }
+    .dhstudio-link-logo-big {
+        background-position: 0 0;
+    }
+    .dhstudio-link-logo-big:hover {
+        background-position: -45px 0;
+    }
+    .dhstudio-link-logo-small {
+        background-position: -90px -8px;
+    }
+    .dhstudio-link-logo-small:hover {
+        background-position: -119px -8px;
+    }
+}
+
+.dhstudio-link {
+    font: 12px Arial, sans-serif !important;
+    line-height: 1.5 !important;
+
+    position: fixed !important;
+    z-index: 2147483646 !important;
+    right: auto !important;
+    left: auto !important;
+
+    display: inline-block !important;
+    zoom: 1 !important;
+
+    width: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 0 !important;
+    background: none !important;
+
+    will-change: transform;
+}
+
+* html .dhstudio-link {
+    position: absolute !important;
+    top: expression(0+((e=document.documentElement.scrollTop)?e+document.documentElement.clientHeight:document.body.scrollTop+document.documentElement.clientHeight)+'px');
+    right: expression(0+((e=document.documentElement.scrollLeft)?e:document.body.scrollLeft)+'px');
+}
+
+.dhstudio-H-button-absolute {
+    position: absolute !important;
+}
+
+.dhstudio-H-button-bottom-hack {
+    top: expression((document.documentElement.clientHeight+document.documentElement.scrollTop) -60 +'px');
+}
+
+.dhstudio-link-logo {
+    position: relative;
+
+    overflow: hidden;
+
+    -webkit-box-sizing: content-box !important;
+       -moz-box-sizing: content-box !important;
+            box-sizing: content-box !important;
+    width: 10px;
+    margin: 0 !important;
+    padding: 10px;
+
+    cursor: pointer;
+
+    border: 0 !important;
+    background: none !important;
+}
+
+.dhstudio-link-wrap {
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border: 0 !important;
+    background: none !important;
+}
+
+.dhstudio-link-logo-link:hover {
+    font: 12px Arial, sans-serif !important;
+
+    padding-right: 20px;
+
+    text-decoration: underline !important;
+
+    color: #46bb61;
+    border: none !important;
+}
+
+.dhstudio-H-button-left {
+    left: 0 !important;
+}
+
+.dhstudio-H-button-right {
+    right: 0 !important;
+}
+
+.dhstudio-H-button-top {
+    top: 0 !important;
+}
+
+.dhstudio-H-button-bottom {
+    bottom: 0 !important;
+}
+
+.dhstudio-link.dhstudio-H-button-left.dhstudio-H-button-top .dhstudio-link-wrap {
+    top: 10px;
+    right: auto;
+    bottom: auto;
+    left: 0;
+}
+
+.dhstudio-link.dhstudio-H-button-left.dhstudio-H-button-bottom .dhstudio-link-wrap {
+    right: auto;
+    left: 0;
+}
+
+.dhstudio-link.dhstudio-H-button-right.dhstudio-H-button-top .dhstudio-link-wrap {
+    top: 10px;
+    bottom: auto;
+}
