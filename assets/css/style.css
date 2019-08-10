@@ -54,11 +54,6 @@ a:hover {
     ;
 }
 
-.body {
-    height: 100%;
-    margin-left: 0;
-}
-
 .btn {
     font-size: 1.2em;
 	font-weight: 900;
@@ -66,10 +61,6 @@ a:hover {
     border: 2px solid transparent;
     border-radius: 8px;
     background-color: transparent;
-}
-
-.text-hidden {
-	display: none
 }
 
 /* --------------------------------------------------------- dhstudio ribbon */
@@ -87,7 +78,6 @@ a:hover {
 /* 3. ------------------------------------------------------ navbar */
 
 .nav-container {
-    position: fixed;
     z-index: 999;
     top: 0;
     right: 0;
@@ -129,14 +119,16 @@ a:hover {
 /* 4. ------------------------------------------------------ intro */
 
 #intro {
-    position: relative;
-
     height: 100vh;
-    padding-top: 150px;
 
     background: url('../img/intro-bg.jpg') no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+#intro .container {
+    position: relative;
+    z-index: 222;
 }
 
 #intro .intro-text h1 {
@@ -153,16 +145,8 @@ a:hover {
     -webkit-text-stroke-color: #b02e0a;
 }
 
-#intro .container {
-    position: relative;
-    z-index: 222;
-}
-
 #intro .intro-overlay {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    left: 0;
+	padding: 150px 0;
 
     width: 100%;
     height: 100%;
@@ -210,5 +194,10 @@ a:hover {
 #intro button {
 	animation-duration: 1s;
 	animation-delay: 850ms;
+}
+
+.arrow-page-down {
+	bottom: 0;
+	color: rgba(251, 230, 85, 0.3) !important
 }
 
