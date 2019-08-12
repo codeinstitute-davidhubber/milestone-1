@@ -128,7 +128,7 @@ section {
 
     width: 100%;
     height: 100%;
-	
+
     background:    -moz-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
     background: -webkit-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
     background:         linear-gradient(to bottom, #cf4917 0%, #dd6a24 25%, #e47b2a 50%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
@@ -261,7 +261,7 @@ a.scrollArrow span {
 
 #intro .btn,
 #intro .btn:active {
-    z-index: 2;;
+    z-index: 2;
 
     transition: .5s ease;
 
@@ -270,7 +270,7 @@ a.scrollArrow span {
     background: rgba(255, 136, 49, 1);
     -webkit-box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
        -moz-box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
-            box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
+            box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);;
 }
 
 #intro .btn:hover {
