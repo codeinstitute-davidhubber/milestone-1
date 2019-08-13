@@ -18,14 +18,13 @@
 
 @font-face {
     font-family: 'mouse_memoirsregular';
-    src: url('../fonts/mousememoirs-regular-webfont.woff2') format('woff2'),
-         url('../fonts/mousememoirs-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+    src: url('../fonts/mousememoirs-regular-webfont.woff2') format('woff2'), url('../fonts/mousememoirs-regular-webfont.woff') format('woff');
 }
 
-/* 2. ------------------------------------------------------ header */
+/* 2. ------------------------------------------------------ basics */
 
 * {
     margin: 0;
@@ -50,27 +49,15 @@ body {
     background: #cf4917;
 }
 
-/* --------------------------------------------------------- dhstudio ribbon */
-
-.ribbon {
-    height: 5px;
-
-    background-image: url(../img/ribbon.png);
-    background-repeat: repeat-x;
-    -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
-       -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
-            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
-}
-
 a,
 i {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:active,
 a:focus,
 a {
-    color: #fbe655;
+    color: #540f0a;
     outline: none;
 }
 
@@ -80,6 +67,12 @@ a:hover {
     color: #fbe655;
     ;
 }
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
 
 .btn {
     font-size: 1em;
@@ -91,7 +84,7 @@ a:hover {
 }
 
 .stroke {
-	-webkit-text-stroke: 0.01em rgba(176, 46, 10, 1);
+    -webkit-text-stroke: .01em rgba(176, 46, 10, 1);
 }
 
 /* 3. ------------------------------------------------------ nav */
@@ -112,15 +105,18 @@ a:hover {
 }
 
 .nav-text {
-	font-family: mouse_memoirsregular;
-	padding: 8px;
-  text-decoration: none;
-  font-size: 2.6em;
+    font-family: mouse_memoirsregular, sans-serif;
+    font-size: 2.6em;
+
+    padding: 8px;
+
+    text-decoration: none;
+
     color: rgba(239, 222, 73, 1.00) !important;
 }
 
 .logo-text {
-    font-family: 'karin_proregular';
+    font-family: 'karin_proregular', sans-serif;
     font-size: 40px;
 
     color: rgba(239, 222, 73, 1.00);
@@ -136,8 +132,15 @@ a:hover {
     vertical-align: 16px;
 
     color: rgba(239, 222, 73, 1.00);
-	
-	-webkit-text-stroke: 0.01em rgba(176, 46, 10, 0)
+
+    -webkit-text-stroke: .01em rgba(176, 46, 10, 0);
+}
+
+p {
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+    font-size: 22px;
+
+    color: rgba(239, 222, 73, 1.00);
 }
 
 /* 5. ------------------------------------------------------ sections */
@@ -146,7 +149,6 @@ section {
     position: relative;
 
     width: 100%;
-    height: 100%;
 
     background:    -moz-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
     background: -webkit-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
@@ -155,8 +157,11 @@ section {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf4917', endColorstr='#cf4917', GradientType=0);
 }
 
-section h1 {
+section .section-gap {
+    padding: 100px 0;
+}
 
+section h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -164,7 +169,6 @@ section h1 {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     white-space: nowrap;
-	
 
     color: #f9ac3d;
 }
@@ -260,8 +264,6 @@ a.scrollArrow span {
     text-shadow: 10px -10px 40px rgba(0, 0, 0, .4);
 
     -webkit-text-fill-color: #fbe655;
-    -webkit-text-stroke-width: .001em;
-    -webkit-text-stroke-color: #b02e0a;
 }
 
 #intro .intro-overlay {
@@ -278,8 +280,6 @@ a.scrollArrow span {
 
 #intro .btn,
 #intro .btn:active {
-    z-index: 2;
-
     transition: .5s ease;
 
     color: rgba(176, 46, 10, 1);
@@ -287,7 +287,8 @@ a.scrollArrow span {
     background: rgba(255, 136, 49, 1);
     -webkit-box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
        -moz-box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
-            box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);;
+            box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
+    ;
 }
 
 #intro .btn:hover {
@@ -299,4 +300,59 @@ a.scrollArrow span {
     -webkit-box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
        -moz-box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
             box-shadow: 10px -10px 40px rgba(0, 0, 0, .3);
+}
+
+/* 5. ------------------------------------------------------ about */
+
+#about .logo-text::after {
+    font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+    font-size: 7px;
+
+    margin-left: -129px;
+
+    content: 'The';
+    vertical-align: 16px;
+
+    color: rgba(239, 222, 73, 1.00);
+
+    -webkit-text-stroke: .01em rgba(176, 46, 10, 0);
+}
+
+#about img {
+    width: 75%;;
+
+    -webkit-box-shadow: 3px -3px 20px rgba(0, 0, 0, .3);
+       -moz-box-shadow: 3px -3px 20px rgba(0, 0, 0, .3);
+            box-shadow: 3px -3px 20px rgba(0, 0, 0, .3);
+}
+
+#about h4,
+p span {
+    font-family: 'goodgirlregular', serif;
+    font-size: 3vh;
+
+    letter-spacing: 2px;
+
+    color: #fbe655;
+}
+
+#about h5 {
+    font-family: 'mouse_memoirsregular', sans-serif;
+    font-size: 3vh;
+
+    padding: 0 20px;;
+
+    color: #653419;
+}
+
+/* --------------------------------------------------------- dhstudio ribbon */
+
+.ribbon {
+    height: 5px;
+
+    background-image: url(../img/ribbon.png);
+    background-repeat: repeat-x;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
+       -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
+            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
 }
