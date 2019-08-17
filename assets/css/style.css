@@ -5,6 +5,7 @@
 
     src: url('../fonts/karin_pro-webfont.woff2') format('woff2'), url('../fonts/karin_pro-webfont.woff') format('woff');
 }
+
 @font-face {
     font-family: 'goodgirlregular';
     font-weight: normal;
@@ -12,6 +13,7 @@
 
     src: url('../fonts/goodgirl-webfont.woff2') format('woff2'), url('../fonts/goodgirl-webfont.woff') format('woff');
 }
+
 @font-face {
     font-family: 'mouse_memoirsregular';
     font-weight: normal;
@@ -19,12 +21,14 @@
 
     src: url('../fonts/mousememoirs-regular-webfont.woff2') format('woff2'), url('../fonts/mousememoirs-regular-webfont.woff') format('woff');
 }
+
 /* 1. ------------------------------------------------------ html */
 
 * {
     margin: 0;
     padding: 0;
 }
+
 html,
 body {
     font-size: 22px;
@@ -33,6 +37,7 @@ body {
 
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
 
@@ -43,6 +48,19 @@ body {
 
     background: #cf4917;
 }
+
+p span {
+    font-family: 'mouse_memoirsregular', sans-serif;
+}
+
+h2 {
+    font-family: 'karin_proregular';
+    font-size: 12vh;
+
+    color: #fbe655;
+    text-shadow: 5px -1px 40px rgba(0, 0, 0, .4);
+}
+
 h4 {
     font-family: 'goodgirlregular', serif;
 
@@ -50,9 +68,7 @@ h4 {
 
     color: #fbe655;
 }
-p span {
-    font-family: 'mouse_memoirsregular', sans-serif;
-}
+
 h5,
 p {
     font-family: 'mouse_memoirsregular', sans-serif;
@@ -62,26 +78,31 @@ p {
     color: #653419;
     ;
 }
+
 a,
 i {
     text-decoration: none !important;
 }
+
 a:active,
 a:focus,
 a {
     color: #540f0a;
     outline: none;
 }
+
 a:hover {
     transition: .4s;
 
     color: #fbe655;
     ;
 }
+
 .row {
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
+
 .btn {
     font-weight: 900;
 
@@ -89,23 +110,36 @@ a:hover {
     border-radius: 8px;
     background-color: transparent;
 }
+
 .stroke {
     -webkit-text-stroke: .01em rgba(176, 46, 10, 1);
 }
+
+.stroke-bold {
+    color: #fbe655;
+    text-shadow: 3px 3px 0 #a0381d, -1px -1px 0 #a0381d, 1px -1px 0 #a0381d, -1px 1px 0 #a0381d, 1px 1px 0 #a0381d;
+
+    -webkit-text-stroke: 5px 540f0a;
+}
+
 .shadows {
     -webkit-box-shadow: 3px -3px 20px rgba(0, 0, 0, .3);
        -moz-box-shadow: 3px -3px 20px rgba(0, 0, 0, .3);
             box-shadow: 3px -3px 20px rgba(0, 0, 0, .3);
 }
+
 .yellow {
     color: rgba(239, 222, 73, 1.00) !important;
 }
+
 .orange {
     color: rgba(207, 73, 23, 1.00) !important;
 }
+
 .border-yellow {
     border: 3px solid rgba(239, 222, 73, 1.00) !important;
 }
+
 /* 2. ------------------------------------------------------ nav */
 
 .nav-container {
@@ -115,11 +149,13 @@ a:hover {
 
     background: rgba(207, 73, 23, .8);
 }
+
 .navbar-toggler .fa {
     font-weight: 400;
 
     color: rgba(239, 222, 73, 1.00);
 }
+
 .nav-text {
     font-family: mouse_memoirsregular, sans-serif;
 
@@ -128,13 +164,17 @@ a:hover {
     text-decoration: none;
 
     color: rgba(239, 222, 73, 1.00) !important;
+	
+	font-size: 1.6em
 }
+
 .logo-text {
     font-family: 'karin_proregular', sans-serif;
     font-size: 40px;
 
     color: rgba(239, 222, 73, 1.00);
 }
+
 .logo-text::after {
     font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
     font-size: 7px;
@@ -148,6 +188,7 @@ a:hover {
 
     -webkit-text-stroke: .01em rgba(176, 46, 10, 0);
 }
+
 /* 3. ------------------------------------------------------ sections */
 
 section {
@@ -155,15 +196,17 @@ section {
 
     width: 100%;
 
-    background:    -moz-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
-    background: -webkit-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
-    background:         linear-gradient(to bottom, #cf4917 0%, #dd6a24 25%, #e47b2a 50%, #dd6a24 75%, rgba(207, 73, 23, .5) 100%);
+    background:    -moz-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, 1) 100%);
+    background: -webkit-linear-gradient(top, #cf4917 0%, #dd6a24 25%, #e47b2a 0%, #dd6a24 75%, rgba(207, 73, 23, 1) 100%);
+    background:         linear-gradient(to bottom, #cf4917 0%, #dd6a24 25%, #e47b2a 50%, #dd6a24 75%, rgba(207, 73, 23, 1) 100%);
 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf4917', endColorstr='#cf4917', GradientType=0);
 }
+
 section .section-gap {
-    padding: 100px 0;
+    padding: 60px 0 0;
 }
+
 section h1 {
     position: absolute;
     top: 50%;
@@ -175,6 +218,7 @@ section h1 {
 
     color: #f9ac3d;
 }
+
 a.scrollArrow {
     position: absolute;
     bottom: 0;
@@ -188,9 +232,11 @@ a.scrollArrow {
 
     color: #f9ac3d;
 }
+
 a.scrollArrow:hover {
     opacity: .5;
 }
+
 a.scrollArrow {
     position: absolute;
     bottom: 0;
@@ -201,6 +247,7 @@ a.scrollArrow {
 
     color: #fff;
 }
+
 a.scrollArrow span {
     position: absolute;
     top: 0;
@@ -219,6 +266,7 @@ a.scrollArrow span {
     border-bottom: 1px solid #f9ac3d;
     border-left: 1px solid #f9ac3d;
 }
+
 @-webkit-keyframes scrollArrow {
     0% {
         -webkit-transform: rotate(-45deg) translate(0, 0);
@@ -230,6 +278,7 @@ a.scrollArrow span {
         -webkit-transform: rotate(-45deg) translate(0, 0);
     }
 }
+
 @keyframes scrollArrow {
     0% {
         transform: rotate(-45deg) translate(0, 0);
@@ -241,6 +290,7 @@ a.scrollArrow span {
         transform: rotate(-45deg) translate(0, 0);
     }
 }
+
 /* 4. ------------------------------------------------------ intro */
 
 #intro {
@@ -249,6 +299,7 @@ a.scrollArrow span {
     background: url(../img/intro-bg.jpg) center center / cover no-repeat;
     background-color: #cf4917;
 }
+
 #intro .intro-text h1 {
     font-family: 'goodgirlregular', serif;
     font-size: 5vw;
@@ -260,6 +311,7 @@ a.scrollArrow span {
 
     -webkit-text-fill-color: #fbe655;
 }
+
 #intro .intro-overlay {
     width: 100%;
     height: 100%;
@@ -271,6 +323,7 @@ a.scrollArrow span {
 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cf4917', endColorstr='#cf4917', GradientType=0);
 }
+
 #intro .btn,
 #intro .btn:active {
     transition: .5s ease;
@@ -280,6 +333,7 @@ a.scrollArrow span {
     background: rgba(255, 136, 49, 1);
     ;
 }
+
 #intro .btn:hover {
     font-weight: 600;
 
@@ -287,6 +341,7 @@ a.scrollArrow span {
     border: solid 2px;
     background: rgba(176, 46, 10, 1);
 }
+
 /* 5. ------------------------------------------------------ about */
 
 #about .logo-text::after {
@@ -302,9 +357,11 @@ a.scrollArrow span {
 
     -webkit-text-stroke: .01em rgba(176, 46, 10, 0);
 }
+
 #about hr {
     border-top: dotted 8px rgba(249, 172, 61, .2);
 }
+
 /* 6. ------------------------------------------------------ video */
 
 #video h2 {
@@ -314,54 +371,40 @@ a.scrollArrow span {
 
     color: #fbe655;
 }
+
 /* 7. ------------------------------------------------------ audio */
+
 /* Audio Snippet by by Michal Szymanski - http://bit.ly/2z0o2TE */
 
-#audio-snippet {
-    width: 360px;
-}
-.card {
-    background-color: transparent;
-}
-.card-body {
-    background-color: transparent;
-}
-.card h5 a {
-    color: #cf49171;
-}
-.card h5 a:hover {
-    color: #cf4917;
-}
-#timeline {
-    float: left;
+#audio {
+    position: relative;
 
-    width: 90%;
-    height: 2px;
-    margin-top: 20px;
-    margin-left: 10px;
+    width: 100%;
 
-    -webkit-border-radius: 15px;
-            border-radius: 15px;
-    background: rgba(249, 172, 61, .3);
+    background:    -moz-linear-gradient(top, rgba(207, 73, 23, .85) 0%, rgba(160, 56, 28, .85) 25%, rgba(160, 56, 28, .85) 0%, rgba(160, 56, 28, .85) 75%, rgba(207, 73, 23, .85) 100%);
+    background: -webkit-linear-gradient(top, rgba(207, 73, 23, .85) 0%, rgba(160, 56, 28, .85) 25%, rgba(160, 56, 28, .85) 0%, rgba(160, 56, 28, .85) 75%, rgba(207, 73, 23, .85) 100%);
+    background:         linear-gradient(to bottom, rgba(207, 73, 23, .85) 0%, rgba(160, 56, 28, .85) 25%, rgba(160, 56, 28, .85) 50%, rgba(160, 56, 28, .85) 75%, rgba(207, 73, 23, .85) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(207, 73, 23, .85)', endColorstr='rgba(207, 73, 23, .85)', GradientType=0);
 }
-#pButton {
-    margin-top: 12px;
 
-    cursor: pointer;
-
-    color: #f9ac3d;
+hr.music {
+    overflow: visible; /* For IE */
+    text-align: center;
+    border-top: double 10px rgba(249, 172, 61, .2);
+	height: 0;
 }
-#playhead {
-    width: 8px;
-    height: 8px;
-    margin-top: -3px;
-
-    cursor: pointer;
-
-    -webkit-border-radius: 50%;
-            border-radius: 50%;
-    background: #f9ac3d;
+hr.music:after {
+    content: "♫♩♫♫♩";
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: transparent;
+	color: rgba(249, 172, 61, .2)
 }
+
 /* --------------------------------------------------------- dhstudio ribbon */
 
 .ribbon {
