@@ -1,0 +1,45 @@
+/* ========== Local Nav ========== */
+#overview .link-overview,
+#system-fonts .link-system-fonts {
+  color: rgba(51, 51, 51, 0.6);
+  pointer-events: none;
+}
+
+
+
+/* ========== Grid ========== */
+#main section.section {
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+#main section .section-content .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+#main section .section-content .row > .column {
+	padding: 0;
+}
+
+@media only screen and (max-width: 1068px) {
+	#main section .section-content .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#main section .section-content .row > .column {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 735px) {
+	#main section.section {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+	#main section .section-content .row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#main section .section-content .row > .column {
+		padding: 1em 0;
+	}
+}
