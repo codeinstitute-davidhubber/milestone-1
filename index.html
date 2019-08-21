@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
+	<link href="assets/img/favicon.png" rel="icon" type="image/png">
 	<title>The Monkees</title><!-- bootstrap css -->
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!-- css -->
 	<link href="assets/css/style.css" rel="stylesheet">
@@ -16,25 +16,22 @@
 	</script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" rel="stylesheet">
 </head>
-<body id="page-top" class="lead">
+<body class="lead" id="pageTop">
 	<!-- nav -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top clearfix" id="mainNav">
 		<div class="ribbon fixed-top"></div>
 		<div class="container-fluid nav-container pt-2 position-fixed">
 			<a class="logo-text ml-3 stroke" href="/">Monkees</a> <button aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler mr-2 border-0" data-target="#navbarResponsive" data-toggle="collapse" type="button"><i class="fa fa-bars"></i></button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item mx-auto px-2">
-						<a class="nav-link nav-text yellow stroke" href="#page-top">Home</a>
+						<a class="nav-link nav-text yellow stroke" href="#pageTop">Home</a>
 					</li>
 					<li class="nav-item mx-auto px-2">
 						<a class="nav-link nav-text yellow stroke" href="#band">About</a>
 					</li>
 					<li class="nav-item mx-auto px-2">
-						<a class="nav-link nav-text yellow stroke" href="#video">Video</a>
-					</li>
-					<li class="nav-item mx-auto px-2">
-						<a class="nav-link nav-text yellow stroke" href="#audio">Audio</a>
+						<a class="nav-link nav-text yellow stroke" href="#audio">Music</a>
 					</li>
 					<li class="nav-item mx-auto px-2">
 						<a class="nav-link nav-text yellow stroke" href="#albumArt">Gallery</a>
@@ -48,28 +45,29 @@
 	</nav><!-- /nav -->
 	<!-- intro -->
 	<section id="intro">
-		<div class="intro-overlay text-center">
-			<div class="container">
-				<div class="row justify-content-center position-relative">
-					<div class="col col-md-10 mt-5 pt-md-5 pt-lg-0"><img alt="The Monkees" class="img-fluid" src="assets/img/intro.png"></div>
-					<div class="intro-text col-12">
-						<h1 class="pt-5 mt-md-5 font-italic text-shadows"><small><span class="d-none">The Monkees -</span> 60's vibes at their best!</small></h1>
+		<div class="intro-overlay">
+			<div class="row">
+				<div class="col-lg-8 container col-" id="monkeesImage">
+					<img alt="The Monkees" class="img-fluid" src="assets/img/intro.png">
+					<h1 class="font-italic text-shadows text-center font-weight-light mt-2 strapline"><span class="d-none">The Monkees -</span> 60's vibes at their best!</h1>
+					<div class="text-center">
+						<a class="btn btn-primary btn-lg p-0 m-1" href="#audio"><i class="fa fa-music mx-5 pt-1 d-inline-block"></i></a><a class="btn btn-primary btn-lg p-0 m-1" href="#albumArt"><i class="fa fa-images mx-5 pt-1 d-inline-block"></i></a>
 					</div>
-				</div><a class="scrollArrow" href="#band"><span></span></a>
-				<div class="row justify-content-center mt-5 pt-md-5 d-block d-sm-none">
-					<button class="col-4 btn col-md-3 m-2 p-0 p-md-2 text-uppercase shadows" type="button"><a href="#audio">audio</a></button> <button class="col-4 btn col-md-3 m-2 p-0 p-md-2 text-uppercase shadows" type="button"><a href="#video">Video</a></button>
 				</div>
 			</div>
+			<div>
+				<a class="scrollArrow" href="#band"><span></span></a>
+			</div>
 		</div>
-	</section><!-- /intro -->
-	<div class="mx-5">
-		<hr class="music">
-	</div><!-- band -->
+	</section><!-- /intro --><!-- band -->
 	<section id="band">
+		<div class="mx-5">
+			<hr class="music">
+		</div>
 		<div class="container section-gap">
 			<div class="row">
-				<h2 class="mx-auto stroke-bold text-shadows yellow">The Band</h2>
-				<h5 class="col-12 text-center lead mb-4 brown"><span class="yellow">The Monkees</span> are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. Their original line-up consisted of the American actor/musicians Micky Dolenz, Michael Nesmith, and Peter Tork with English actor/singer Davy Jones.</h5>
+				<h2 class="mx-auto stroke-bold text-shadows yellow pb-3">The Band</h2>
+				<h5 class="col-12 text-center lead mb-4 brown"><span class="yellow">The Monkees</span> are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. Their original line-up consisted of the American actor/ musicians Micky Dolenz, Michael Nesmith, and Peter Tork with English actor/ singer Davy Jones.</h5>
 			</div>
 			<div class="row">
 				<!-- band member -->
@@ -77,18 +75,18 @@
 					<div class="image-flip">
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
-								<div class="card">
-									<div class="card-body text-center">
+								<div class="card rounded">
+									<div class="card-body rounded text-center">
 										<p><img alt="card image" class=" img-fluid" src="assets/img/band/about-788x810-micky-yellow-bg.jpg"></p>
-										<h4 class="card-title text-shadows">Micky Dolenz</h4>
+										<h3 class="card-title text-shadows">Micky Dolenz</h3>
 										<p class="card-text brown">"Gets in trouble at the drop of a drumstick"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
 								</div>
 							</div>
 							<div class="backside rounded shadows">
-								<div class="card">
-									<div class="row card-body text-center">
-										<h4 class="col card-title text-shadows">Micky Dolenz</h4>
+								<div class="card rounded">
+									<div class="row card-body text-center rounded">
+										<h3 class="col card-title text-shadows pt-md-5">Micky Dolenz</h3>
 										<p class="card-text brown">George Michael Dolenz Jr, (born March 8th, 1945), originally had his own rock group called "Micky and the One-Nighters" in the early- to mid-1960s with himself as lead singer. In 1965, Dolenz was cast in the television sitcom The Monkees and became the drummer and a lead vocalist in the band created for the show (although not a drummer initially), he was lead singer in songs such as "I'm a Believer" and "Last Train To Clarksville".</p>
 									</div>
 								</div>
@@ -101,18 +99,18 @@
 					<div class="image-flip">
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
-								<div class="card">
-									<div class="card-body text-center">
+								<div class="card rounded">
+									<div class="card-body rounded text-center">
 										<p><img alt="card image" class=" img-fluid" src="assets/img/band//about-788x810-mike-yellow-bg.jpg"></p>
-										<h4 class="card-title text-shadows">Michael Nesmith</h4>
+										<h3 class="card-title text-shadows">Michael Nesmith</h3>
 										<p class="card-text brown">"Thinks inhibitions are something under the hood of hot rods"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
 								</div>
 							</div>
 							<div class="backside rounded shadows">
-								<div class="card">
-									<div class="row card-body text-center">
-										<h4 class="col card-title text-shadows">Michael Nesmith</h4>
+								<div class="card rounded">
+									<div class="row card-body text-center rounded">
+										<h3 class="col card-title text-shadows pt-md-5">Michael Nesmith</h3>
 										<p class="card-text brown">Robert Michael Nesmith, (born 30th December 1942), was born in Houston, Texas, being an only child. Nesmith enlisted in the United States Air Force in 1960 in which he obtained a G.E.D. and was discharged under honorable conditions in 1962. Nesmith landed the role as the wool-hat-wearing guitar player 'Mike' in the show 'The Monkees' from 1965 to early 1970. He wrote several of the songs performed by The Monkees such as 'Mary Mary', 'Listen to the band' and 'The girl I knew somewhere'.</p>
 									</div>
 								</div>
@@ -125,18 +123,18 @@
 					<div class="image-flip">
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
-								<div class="card">
-									<div class="card-body text-center">
+								<div class="card rounded">
+									<div class="card-body rounded text-center">
 										<p><img alt="card image" class=" img-fluid" src="assets/img/band/about-788x810-peter-yellow-bg.jpg"></p>
-										<h4 class="card-title text-shadows">Peter Tork</h4>
+										<h3 class="card-title text-shadows">Peter Tork</h3>
 										<p class="card-text brown">"The poker-pussed picker of proposterous predicaments"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
 								</div>
 							</div>
 							<div class="backside rounded shadows">
-								<div class="card">
-									<div class="row card-body text-center">
-										<h4 class="col card-title text-shadows">Peter Tork</h4>
+								<div class="card rounded">
+									<div class="row card-body text-center rounded">
+										<h3 class="col card-title text-shadows pt-md-5">Peter Tork</h3>
 										<p class="card-text brown d-flex justify-content-center">Peter Halsten Thorkelson, (born 13th February 1942), began studying piano at the age of nine, showing an aptitude for music by learning to play several different instruments, including the banjo and both acoustic bass and guitars. Though the group was not allowed to play their own instruments on their first two albums, he was an exception, playing what he described as 'third chair guitar' on Mike Nesmith's song, 'Papa Gene's Blues', from their first album.<br>
 										With his cancer returning in 2018, he died on February 21st 2019, eight days after his 77th birthday.</p>
 									</div>
@@ -150,18 +148,18 @@
 					<div class="image-flip">
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
-								<div class="card">
-									<div class="card-body text-center">
+								<div class="card rounded">
+									<div class="card-body rounded text-center">
 										<p><img alt="card image" class=" img-fluid" src="assets/img/band/about-788x810-davy-yellow-bg.jpg"></p>
-										<h4 class="card-title text-shadows">Davey Jones</h4>
+										<h3 class="card-title text-shadows">Davey Jones</h3>
 										<p class="card-text brown">"Falls in love the way other people breathe"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
 								</div>
 							</div>
 							<div class="backside rounded shadows">
-								<div class="card">
-									<div class="row card-body text-center">
-										<h4 class="col card-title text-shadows">Davey Jones</h4>
+								<div class="card rounded">
+									<div class="row card-body text-center rounded">
+										<h3 class="col card-title text-shadows pt-md-5">Davey Jones</h3>
 										<p class="card-text brown">David Thomas Jones, (born 30th December 1945), was born at 20 Leamington Street, Openshaw, Manchester. Initially interested in becoming a jockey, David dropped out of secondary school to train in this field but it was short-lived. From 1966 to 1971, Jones was a member of the Monkees, also part of a television show of the same name; of which he was the lead singer to popular songs such as 'Daydream Believer'.<br>
 										'Davey' passed away on the 29th February 2012 due to heart complications.</p>
 									</div>
@@ -172,31 +170,21 @@
 				</div><!-- /band member -->
 			</div>
 		</div>
-	</section><!-- /band -->
-	<div class="mx-5">
-		<hr class="music">
-	</div><!-- video --
-    <section id="video">
-        <div class="container section-gap px-3">
-            <div class="container lead text-center">
-                <h2>Daydream Believer</h2>
-                <h5>This is an official music video for The Monkees timeless hit 'Daydream Believer' from CHRISTMAS PARTY, their first holiday album</h5>
-                <div class="embed-responsive embed-responsive-16by9 shadows">
-                    <video autoplay class="video-fluid border-yellow rounded" controls loop muted><source src="assets/video/daydream-believer.mp4" type="video/mp4"></video>
-                </div>
-                <p class="text-right small">source: <a href="https://dai.ly/xppgv4">Daily Motion</a></p>
-            </div>
-        </div>
-    </section>
-<!-- /video -->
-	<div class="mx-5">
-		<hr class="music">
-	</div><!-- audio -->
+	</section><!-- /band --><!-- audio -->
 	<section id="audio">
+		<div class="mx-5">
+			<hr class="music">
+		</div>
 		<div class="container section-gap position-relative">
 			<div class="row">
 				<h2 class="mx-auto stroke-bold text-shadows yellow">Big Tunes</h2>
-			</div><!-- monkees playlist container -->
+			</div><!-- video ==
+<div class="container px-4">
+<div class="embed-responsive embed-responsive-16by9 shadows">
+<video autoplay class="video-fluid border-yellow rounded" controls loop muted><source src="assets/video/daydream-believer.mp4" type="video/mp4"></video>
+</div>
+</div>
+<!== /video --><!-- monkees playlist container -->
 			<div id="monkees-playlist-container">
 				<!-- amplitude player -->
 				<div class="mw-100" id="amplitude-player">
@@ -308,32 +296,29 @@
 			</div>
 		</div>
 	</section><!-- /audio -->
-	<div class="mx-5">
-		<hr class="music">
-	</div>
 	<!-- gallery -->
 	<section id="albumArt">
+		<div class="mx-5">
+			<hr class="music">
+		</div>
 		<div class="container section-gap position-relative">
 			<div class="row">
-				<h2 class="mx-auto stroke-bold text-shadows yellow pb-5">Album Art</h2>
+				<h2 class="mx-auto stroke-bold text-shadows yellow pb-3">Album Art</h2>
 				<div id="fancybox"></div>
 			</div>
 		</div>
-	</section>
-	<!-- /gallery -->
-	<div class="mx-5">
-		<hr class="music">
-	</div>
+	</section><!-- /gallery -->
 	<!-- contact -->
 	<section id="contact">
+		<div class="mx-5">
+			<hr class="music">
+		</div>
 		<div class="container section-gap"></div>
-	</section>
-	<!-- /contact -->
+	</section><!-- /contact -->
 	<!-- footer -->
 	<section id="footer">
 		<div class="container section-gap"></div>
-	</section>
-	<!-- /footer -->
+	</section><!-- /footer -->
 	<!-- scripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
 	</script> 
@@ -346,18 +331,20 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
 	</script> 
 	<script>
-		$(document).ready(function() {
-			var image = 1;
-			while (image <= 20) {
-				$('#fancybox').append('<div class="col-lg-3 col-md-4 col-6 pb-2 d-inline-block"> <a data-fancybox="gallery" class="fancybox" href="assets/img/gallery/monkees-' + image + '.jpg" rel="ligthbox"><img alt="" class="zoom img-fluid border-yellow rounded shadows" src="assets/img/gallery/monkees-' + image + '.jpg"><\/a><\/div><\/div>');
-				image++;
-			}
-		}),
-		$(".fancybox").fancybox({
-	             openEffect: "none",
-	             closeEffect: "none"
-		});
-	</script>
-	<!-- /scripts -->
+	   $( document )
+	      .ready( function() {
+	          var image = 1;
+	          while ( image <= 20 ) {
+	              $( '#fancybox' )
+	                  .append( '<div class="col-lg-3 col-md-4 col-6 pb-4 d-inline-block"> <a data-fancybox="gallery" class="fancybox" href="assets/img/gallery/monkees-' + image + '.jpg" rel="ligthbox"><img alt="" class="zoom img-fluid border-yellow rounded shadows" src="assets/img/gallery/monkees-' + image + '.jpg"><\/a><\/div>' );
+	              image++;
+	          }
+	      } )
+	      , $( ".fancybox" )
+	      .fancybox( {
+	          openEffect: "none"
+	          , closeEffect: "none"
+	      } );
+	</script> <!-- /scripts -->
 </body>
 </html>
