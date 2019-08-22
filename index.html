@@ -4,19 +4,23 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
-	<link rel="icon" type="image/png" href="assets/img/favicon.png">
-	<title>The Monkees</title><!-- bootstrap css -->
-	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"><!-- css -->
+	<link href="assets/img/favicon.png" rel="icon" type="image/png">
+	<title>The Monkees</title>
+	<!-- bootstrap css -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- css -->
 	<link href="assets/css/style.css" rel="stylesheet">
 	<link href="branding/css/dhstudio.css" rel="stylesheet">
 	<link href="assets/css/amplitude.min.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet"><!-- fontawesome js -->
-
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	
+	<!-- fontawesome js -->
 	<script src="https://kit.fontawesome.com/a50cadf637.js">
 	</script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" rel="stylesheet">
 </head>
-<body id="pageTop" class="lead">
+<body class="lead" id="pageTop">
+	
 	<!-- nav -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top clearfix" id="mainNav">
 		<div class="ribbon fixed-top"></div>
@@ -36,38 +40,38 @@
 					<li class="nav-item mx-auto px-2">
 						<a class="nav-link nav-text yellow stroke" href="#albumArt">Gallery</a>
 					</li>
-					<li class="nav-item mx-auto px-2">
-						<a class="nav-link nav-text yellow stroke" href="#contact">Contact</a>
-					</li>
 				</ul>
 			</div>
 		</div>
-	</nav><!-- /nav -->
+	</nav>
+	<!-- /nav -->
+	
 	<!-- intro -->
 	<section id="intro">
 		<div class="intro-overlay">
-			<div class="row">
-				<div class="col-lg-8 container col-" id="monkeesImage">
-					<img alt="The Monkees" class="img-fluid" src="assets/img/intro.png">
-					<h1 class="font-italic text-shadows text-center font-weight-light mt-2 strapline"><span class="d-none">The Monkees -</span> 60's vibes at their best!</h1>
-					<div class="text-center">
-						<a class="btn btn-primary btn-lg p-0 m-1" href="#audio"><i class="fa fa-music mx-5 pt-1 d-inline-block"></i></a><a class="btn btn-primary btn-lg p-0 m-1" href="#albumArt"><i class="fa fa-images mx-5 pt-1 d-inline-block"></i></a>
-					</div>
+			<div class="col-12 col-lg-8 container" id="monkeesImage">
+				<img alt="The Monkees" class="img-fluid" src="assets/img/intro.png">
+				<h1 class="font-italic text-shadows text-center font-weight-light mt-2 strapline"><span class="d-none">The Monkees -</span> 60's vibes at their best!</h1>
+				<div class="text-center pt-1 pt-md-3">
+					<a class="btn btn-primary btn-lg p-0 m-1" href="#audio"><i class="fa fa-music mx-5 pt-1 d-inline-block"></i></a><a class="btn btn-primary btn-lg p-0 m-1" href="#albumArt"><i class="fa fa-images mx-5 pt-1 d-inline-block"></i></a>
 				</div>
 			</div>
 			<div>
 				<a class="scrollArrow" href="#band"><span></span></a>
 			</div>
 		</div>
-	</section><!-- /intro --><!-- band -->
+	</section>
+	<!-- /intro -->
+	
+	<!-- band -->
 	<section id="band">
 		<div class="mx-5">
-			<hr class="music">
+			<hr>
 		</div>
 		<div class="container section-gap">
 			<div class="row">
-				<h2 class="mx-auto stroke-bold text-shadows yellow pb-3">The Band</h2>
-				<h5 class="col-12 text-center lead mb-4 brown"><span class="yellow">The Monkees</span> are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. Their original line-up consisted of the American actor/ musicians Micky Dolenz, Michael Nesmith, and Peter Tork with English actor/ singer Davy Jones.</h5>
+				<h2 class="col-12 text-center stroke-bold text-shadows yellow mb-3">The Band</h2>
+				<h5 class="text-center lead mx-3 mx-md-2 mb-5 brown"><span class="yellow">The Monkees</span> are an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. Their original line-up consisted of the American actor/ musicians Micky Dolenz, Michael Nesmith, and Peter Tork with English actor/ singer Davy Jones.</h5>
 			</div>
 			<div class="row">
 				<!-- band member -->
@@ -76,8 +80,8 @@
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
 								<div class="card rounded">
-									<div class="card-body rounded text-center">
-										<p><img alt="card image" class=" img-fluid" src="assets/img/band/about-788x810-micky-yellow-bg.jpg"></p>
+									<div class="card-body text-center rounded">
+										<p><img alt="card image" aria-hidden="true" class=" img-fluid" src="assets/img/band/about-788x810-micky-yellow-bg.jpg"></p>
 										<h3 class="card-title text-shadows">Micky Dolenz</h3>
 										<p class="card-text brown">"Gets in trouble at the drop of a drumstick"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
@@ -93,15 +97,16 @@
 							</div>
 						</div>
 					</div>
-				</div><!-- /band member -->
+				</div>
+				<!-- /band member -->
 				<!-- band member -->
 				<div class="col-12 col-sm-6 col-md-6">
 					<div class="image-flip">
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
 								<div class="card rounded">
-									<div class="card-body rounded text-center">
-										<p><img alt="card image" class=" img-fluid" src="assets/img/band//about-788x810-mike-yellow-bg.jpg"></p>
+									<div class="card-body text-center rounded">
+										<p><img alt="card image" aria-hidden="true" class=" img-fluid" src="assets/img/band/about-788x810-mike-yellow-bg.jpg"></p>
 										<h3 class="card-title text-shadows">Michael Nesmith</h3>
 										<p class="card-text brown">"Thinks inhibitions are something under the hood of hot rods"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
@@ -117,15 +122,16 @@
 							</div>
 						</div>
 					</div>
-				</div><!-- /band member -->
+				</div>
+				<!-- /band member -->
 				<!-- band member -->
 				<div class="col-12 col-sm-6 col-md-6">
 					<div class="image-flip">
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
 								<div class="card rounded">
-									<div class="card-body rounded text-center">
-										<p><img alt="card image" class=" img-fluid" src="assets/img/band/about-788x810-peter-yellow-bg.jpg"></p>
+									<div class="card-body text-center rounded">
+										<p><img alt="card image" aria-hidden="true" class=" img-fluid" src="assets/img/band/about-788x810-peter-yellow-bg.jpg"></p>
 										<h3 class="card-title text-shadows">Peter Tork</h3>
 										<p class="card-text brown">"The poker-pussed picker of proposterous predicaments"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
@@ -135,22 +141,23 @@
 								<div class="card rounded">
 									<div class="row card-body text-center rounded">
 										<h3 class="col card-title text-shadows pt-md-5">Peter Tork</h3>
-										<p class="card-text brown d-flex justify-content-center">Peter Halsten Thorkelson, (born 13th February 1942), began studying piano at the age of nine, showing an aptitude for music by learning to play several different instruments, including the banjo and both acoustic bass and guitars. Though the group was not allowed to play their own instruments on their first two albums, he was an exception, playing what he described as 'third chair guitar' on Mike Nesmith's song, 'Papa Gene's Blues', from their first album.<br>
+										<p class="card-text brown">Peter Halsten Thorkelson, (born 13th February 1942), began studying piano at the age of nine, showing an aptitude for music by learning to play several different instruments, including the banjo and both acoustic bass and guitars. Though the group was not allowed to play their own instruments on their first two albums, he was an exception, playing what he described as 'third chair guitar' on Mike Nesmith's song, 'Papa Gene's Blues', from their first album.<br>
 										With his cancer returning in 2018, he died on February 21st 2019, eight days after his 77th birthday.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div><!-- /band member -->
+				</div>
+				<!-- /band member -->
 				<!-- band member -->
 				<div class="col-12 col-sm-6 col-md-6">
 					<div class="image-flip">
 						<div class="mainflip">
 							<div class="frontside rounded shadows">
 								<div class="card rounded">
-									<div class="card-body rounded text-center">
-										<p><img alt="card image" class=" img-fluid" src="assets/img/band/about-788x810-davy-yellow-bg.jpg"></p>
+									<div class="card-body text-center rounded">
+										<p><img alt="card image" aria-hidden="true" class=" img-fluid" src="assets/img/band/about-788x810-davey-yellow-bg.jpg"></p>
 										<h3 class="card-title text-shadows">Davey Jones</h3>
 										<p class="card-text brown">"Falls in love the way other people breathe"</p><a class="btn btn-primary btn-sm" href="#!"><i class="fa fa-plus"></i></a>
 									</div>
@@ -160,32 +167,38 @@
 								<div class="card rounded">
 									<div class="row card-body text-center rounded">
 										<h3 class="col card-title text-shadows pt-md-5">Davey Jones</h3>
-										<p class="card-text brown">David Thomas Jones, (born 30th December 1945), was born at 20 Leamington Street, Openshaw, Manchester. Initially interested in becoming a jockey, David dropped out of secondary school to train in this field but it was short-lived. From 1966 to 1971, Jones was a member of the Monkees, also part of a television show of the same name; of which he was the lead singer to popular songs such as 'Daydream Believer'.<br>
-										'Davey' passed away on the 29th February 2012 due to heart complications.</p>
+										<p class="card-text brown">David Thomas Jones, (born 30th December 1945), was born at 20 Leamington Street, Openshaw, Manchester. Initially interested in becoming a jockey, David dropped out of secondary school to train in this field but it was short-lived. From 1966 to 1971, Jones was a member of the Monkees, also part of a television show of the same name, of which he was the lead singer to popular songs such as 'Daydream Believer'. 'Davey' passed away on the 29th February 2012 due to heart complications.</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div><!-- /band member -->
+				</div>
+				<!-- /band member -->
 			</div>
 		</div>
-	</section><!-- /band --><!-- audio -->
+	</section>
+	<!-- /band -->
+	
+	<!-- audio -->
 	<section id="audio">
 		<div class="mx-5">
-			<hr class="music">
+			<hr>
 		</div>
 		<div class="container section-gap position-relative">
 			<div class="row">
-				<h2 class="mx-auto stroke-bold text-shadows yellow">Big Tunes</h2>
-			</div><!-- video -->
-			<div class="container px-4">
-				<div class="embed-responsive embed-responsive-16by9 shadows">
-					<video autoplay class="video-fluid border-yellow rounded" controls loop muted>
-						<source src="assets/video/daydream-believer.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div><!-- /video --><!-- monkees playlist container -->
+				<h2 class="col-12 text-center stroke-bold text-shadows yellow mb-1">Big Tunes</h2>
+			</div>
+			<!-- video -->
+            <div class="container px-4">
+                <div class="embed-responsive embed-responsive-16by9 shadows">
+                    <video autoplay class="video-fluid border-yellow rounded" controls loop muted>
+                        <source src="assets/video/daydream-believer.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+			<!-- /video -->
+			<!-- monkees playlist container -->
 			<div id="monkees-playlist-container">
 				<!-- amplitude player -->
 				<div class="mw-100" id="amplitude-player">
@@ -226,7 +239,8 @@
 								</div>
 							</div>
 						</div>
-					</div><!-- /left side of player -->
+					</div>
+					<!-- /left side of player -->
 					<!-- right side of player -->
 					<div id="amplitude-right">
 						<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">
@@ -292,34 +306,82 @@
 								<span class="song-title lead">For Pete's Sake (Closing Theme)</span> <span class="song-artist">Headquarters</span>
 							</div><a class="wiki-link" href="https://en.wikipedia.org/wiki/For_Pete%27s_Sake" target="_blank"><img alt="Wikipedia Button" class="wiki-brown" src="assets/img/amplitude/wiki-brown.svg"> <img alt="Wikipedia Button" class="wiki-orange" src="assets/img/amplitude/wiki-orange.svg"></a> <span class="song-duration">02:12</span>
 						</div>
-					</div><!-- /right side of player -->
-				</div><!-- /amplitdue player -->
+					</div>
+					<!-- /right side of player -->
+				</div>
+				<!-- /amplitdue player -->
 			</div>
 		</div>
-	</section><!-- /audio -->
+	</section>
+	<!-- /audio -->
+	
+	<!-- tour dates -->
+	<section id="tourDates">
+		<div class="mx-5">
+			<hr>
+		</div>
+		<div class="mx-5 mb-5">
+			<h2 class="col text-center text-shadows yellow pt-5">Hey, Hey!</h2>
+			<p class="text-center font-weight-bolder yellow">The Monkees could be coming to <em>your</em> town very soon...</p>
+			<p class="text-center font-weight-bold">Check out these dates for Michael Nesmith, Micky Dolenz and The Monkees upcoming concerts.<br>
+				Michael Nesmith solo (performing his legendary songs from the 1970's like Joanne, Silver Moon, Some Shelley's Blues and Propinquity).</p>
+			<p class="text-center font-weight-bolder"><a class="yellow" href="https://www.monkees.com/article/monkees-2019-tour-dates" target="_blank">[READ MORE]</a></p>
+		</div>
+	</section>
+	<!-- /tour dates -->
+	
 	<!-- gallery -->
 	<section id="albumArt">
 		<div class="mx-5">
-			<hr class="music">
+			<hr>
 		</div>
 		<div class="container section-gap position-relative">
 			<div class="row">
-				<h2 class="mx-auto stroke-bold text-shadows yellow pb-3">Album Art</h2>
+				<h2 class="col-12 text-center stroke-bold text-shadows yellow mb-5">Album Art</h2>
 				<div id="fancybox"></div>
 			</div>
 		</div>
-	</section><!-- /gallery -->
-	<!-- contact -->
-	<section id="contact">
-		<div class="mx-5">
-			<hr class="music">
-		</div>
-		<div class="container section-gap"></div>
-	</section><!-- /contact -->
+	</section>
+	<!-- /gallery -->
+	
 	<!-- footer -->
-	<section id="footer">
-		<div class="container section-gap"></div>
-	</section><!-- /footer -->
+	<footer class="container-fluid pt-5 footer-overlay yellow">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 mb-lg-0">
+					<p class="text-sm text-md-left"><small>The Monkees were an American rock and pop band originally active between 1966 and 1971, with reunion albums and tours in the decades that followed. They were formed in Los Angeles in 1965 by Bob Rafelson and Bert Schneider for the American television series The Monkees which aired from 1966 to 1968. <a class=" text-white-50" href="https://en.wikipedia.org/wiki/The_Monkees" target="_blank">[Wikipedia]</a></small></p>
+				</div>
+				<div class="col-lg-2 col-sm-4 mb-2 mb-lg-0"><img alt="The Monkees Guitar Logo" class="img-fluid px-5 px-md-0" src="assets/img/monkees-com-header-logo.png"></div>
+			</div>
+			<div class="row align-items-center justify-content-md-between py-4 mx-2">
+				<div class="col-md-6">
+					<div class="copyright text-sm font-weight-bold text-center text-md-left">
+						&copy; 2019 • The Monkees
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="nav justify-content-center justify-content-md-end mt-3 mt-md-0">
+						<div class="addthis_inline_share_toolbox">
+							<a href="https://www.facebook.com/TheMonkees" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a> <a href="https://twitter.com/monkeesofficial" target="_blank"><i aria-hidden="true" class="fa fa-twitter"></i></a> <a href="https://www.instagram.com/themonkees/" target="_blank"><i aria-hidden="true" class="fa fa-instagram"></i></a> <a href="https://www.youtube.com/user/themonkees" target="_blank"><i aria-hidden="true" class="fa fa-youtube"></i></a> <a href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i aria-hidden="true" class="fa fa-spotify"></i></a> <a href="https://www.monkees.com/rss" target="_blank"><i aria-hidden="true" class="fa fa-rss"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- /footer -->
+	
+	<!-- dhstudio branding -->
+    <div id="dhstudio">
+        <a href="https://dhstudio.design/">
+        <div class="dhstudio-link dhstudio-H-button-bottom dhstudio-H-button-right dhstudio-H-button-bottom-hack">
+            <div class="dhstudio-link-wrap">
+                <div class="dhstudio-link-logo-small"></div>
+            </div>
+        </div></a>
+    </div>
+	<!-- /dhstudio branding -->
+	
 	<!-- scripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
 	</script> 
@@ -332,20 +394,21 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
 	</script> 
 	<script>
-	   $( document )
-	      .ready( function() {
-	          var image = 1;
-	          while ( image <= 20 ) {
-	              $( '#fancybox' )
-	                  .append( '<div class="col-lg-3 col-md-4 col-6 pb-4 d-inline-block"> <a data-fancybox="gallery" class="fancybox" href="assets/img/gallery/monkees-' + image + '.jpg" rel="ligthbox"><img alt="" class="zoom img-fluid border-yellow rounded shadows" src="assets/img/gallery/monkees-' + image + '.jpg"><\/a><\/div>' );
-	              image++;
-	          }
-	      } )
-	      , $( ".fancybox" )
-	      .fancybox( {
-	          openEffect: "none"
-	          , closeEffect: "none"
-	      } );
-	</script> <!-- /scripts -->
+		$( document )
+			.ready( function() {
+			var image = 1;
+			while ( image <= 20 ) {
+				$( '#fancybox' )
+					.append( '<div id="albumArtGallery" class="col-lg-3 col-md-4 col-6 p-2 d-inline-block"> <a data-fancybox="gallery" class="fancybox" href="assets/img/gallery/monkees-' + image + '.jpg" rel="ligthbox"><img alt="Album Art" class="img-fluid border-yellow rounded shadows" src="assets/img/gallery/monkees-' + image + '.jpg"><\/a><\/div>' );
+				image++;
+			}
+		} )
+			, $( ".fancybox" )
+			.fancybox( {
+			openEffect: "none"
+			, closeEffect: "none"
+		} );
+	</script>
+	<!-- /scripts -->
 </body>
 </html>
