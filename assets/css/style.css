@@ -22,7 +22,7 @@
     src: url('../fonts/mousememoirs-regular-webfont.woff2') format('woff2'), url('../fonts/mousememoirs-regular-webfont.woff') format('woff');
 }
 
-/* 1. ------------------------------------------------------ html */
+/* html */
 
 html,
 body {
@@ -130,7 +130,7 @@ hr {
     border-radius: 8px !important;
 }
 
-/* 2. ------------------------------------------------------ nav */
+/* nav */
 
 .navbar .nav-text {
     font-family: 'Open Sans', sans-serif;
@@ -181,7 +181,7 @@ hr {
     -webkit-text-stroke: .01em rgba(176, 46, 10, 0);
 }
 
-/* 3. ------------------------------------------------------ sections */
+/* sections */
 
 section,
 footer {
@@ -268,7 +268,7 @@ a.scrollArrow span {
     }
 }
 
-/* 4. ------------------------------------------------------ intro */
+/* intro */
 
 #intro {
     height: 100vh;
@@ -317,7 +317,7 @@ a.scrollArrow span {
     background: rgba(176, 46, 10, 1);
 }
 
-/* 5. ------------------------------------------------------ band */
+/* band */
 
 .card {
     min-height: 450px !important;
@@ -435,9 +435,7 @@ a.scrollArrow span {
     padding: 0;
 }
 
-/* 6. ------------------------------------------------------ video */
-
-/* 7. ------------------------------------------------------ audio */
+/* audio */
 
 /* Audio Snippet by by Michal Szymanski - http://bit.ly/2z0o2TE */
 
@@ -453,7 +451,7 @@ a.scrollArrow span {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(207, 73, 23, .85)', endColorstr='rgba(207, 73, 23, .85)', GradientType=0);
 }
 
-/* 8. ------------------------------------------------------ gallery */
+/* gallery */
 
 #albumArtGallery img {
     opacity: .7;
@@ -502,7 +500,7 @@ a.scrollArrow span {
     cursor:         zoom-in;
 }
 
-/* 9. ------------------------------------------------------ footer */
+/* footer */
 
 footer.footer-overlay {
     width: 100%;
@@ -530,7 +528,7 @@ footer .fa {
     color: #192346;
 }
 
-/* 10. ----------------------------------------------------- media queries */
+/* 10. media queries */
 
 @media only screen and (max-width: 768px) {
     h2 {
@@ -557,7 +555,7 @@ footer .fa {
     }
 }
 
-/* --------------------------------------------------------- dhstudio ribbon */
+/* dhstudio ribbon */
 
 .ribbon {
     height: 5px;
