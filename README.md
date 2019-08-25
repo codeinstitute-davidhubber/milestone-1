@@ -136,6 +136,12 @@ Clickable images into a gallery with simple back/ forward buttons, an image coun
 - Commited a ['README.md'] (https://github.com/DavidHubber/milestone-1/blob/master/README.md) Markdown file and uploaded initial commit.
 - Activated GitHub Pages via the repository’s settings.
 
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 ----------
 
 ## Acknowledgements
