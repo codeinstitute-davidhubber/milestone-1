@@ -58,7 +58,7 @@ The site is a scrolling site rather than a site full of pages, merely to allow t
 
 ## Testing
 
-#####User Testing
+##### User Testing
 
 All pages functions and information was reviewed by a small team. 
 
@@ -76,14 +76,14 @@ transform: translate(-50%, -50%);
 ```
 
 
-#####Browser Testing via:
+##### Browser Testing via:
 
  - [Google Chrome](https://www.google.com/chrome/)
  - [Mozilla Firefox](https://www.mozilla.org/en-GB/firefox/)
  - [Safari](https://www.apple.com/safari/)
  - [Vivaldi](https://vivaldi.com/)
 
-#####Device Testing via:
+##### Device Testing via:
 
  - [iPad Pro 11-inch](https://www.apple.com/ipad-pro/specs/)
  - [iPhone Xr](https://www.apple.com/iphone-xr/specs/)
@@ -119,7 +119,7 @@ Clickable images into a gallery with simple back/ forward buttons, an image coun
 * [CSS](https://www.w3schools.com/whatis/whatis_css.asp) (Cascading Style Sheets): A style sheet language used for describing the presentation of a document written in a markup language like HTML. 
 * [Bootstrap](href="https://getbootstrap.com/): A CSS Framework for developing responsive and mobile-first websites.
 * [GitHub](href="https://github.com/): A web-based hosting service for version control using Git.
-* [Google Chrome Developer Tools] (https://www.google.com/chrome/dev/): Used to view & test cutting-edge web platform APIs with the use of developer tools.
+* [Google Chrome Developer Tools](https://www.google.com/chrome/dev/): Used to view & test cutting-edge web platform APIs with the use of developer tools.
 * [Dreamweaver](https://www.adobe.com/products/dreamweaver.html) (Adobe): A web design and development application that uses both a visual design surface known as Live View and a code editor.
 * [Photoshop](https://www.adobe.com/products/photoshop.html) (Adobe): A raster graphics editor developed and published by Adobe Systems for macOS and Windows
 * [Macdown](https://macdown.uranusjr.com/): An Open source Markdown editor for macOS.
@@ -142,11 +142,11 @@ Clickable images into a gallery with simple back/ forward buttons, an image coun
 
 **Fonts**
 
-Karin Pro - [iFonts](https://ifonts.xyz/karin-pro-font.html)
+- Karin Pro - [iFonts](https://ifonts.xyz/karin-pro-font.html)
 
-GoodGirl by - [Cathy Davies](https://www.fontspace.com/cathy-davies)
+- GoodGirl by - [Cathy Davies](https://www.fontspace.com/cathy-davies)
 
-Mouse Memoirs - [Brian J. Bonislawsky](https://www.1001fonts.com/search.html?search=MOUSE+MEMOIRS&x=0&y=0)
+- Mouse Memoirs - [Brian J. Bonislawsky](https://www.1001fonts.com/search.html?search=MOUSE+MEMOIRS&x=0&y=0)
 
 **Images**
 
@@ -180,12 +180,12 @@ Mouse Memoirs - [Brian J. Bonislawsky](https://www.1001fonts.com/search.html?sea
 
 **Scripts**
 
-Audio (Amplitude) - [521 Dimensions](https://521dimensions.com)
+- Audio (Amplitude) - [521 Dimensions](https://521dimensions.com)
 
-Image Gallery (FancyBox) - [FancyApps](https://github.com/fancyapps)
+- Image Gallery (FancyBox) - [FancyApps](https://github.com/fancyapps)
 
 
 
 **Video**
 
-I'm a Believer - [Daily Motion](https://www.dailymotion.com/video/xppgv4)
+- I'm a Believer - [Daily Motion](https://www.dailymotion.com/video/xppgv4)
