@@ -109,7 +109,7 @@ Four rotating cards each with an image of a band member on the fronside and a li
  - [Gallery/ Album Art section](https://davidhubber.github.io/milestone-1/index.html#albumArt)
 Clickable images into a gallery with simple back/ forward buttons, an image counter, the ability to view all images in a side panel and play button to enable a 'slideshow' effect.
 
- - [Footer section](https://valenovi76.github.io/DeliveryExcellence/contact.html)
+ - [Footer section](https://davidhubber.github.io/milestone-1/index.html#footer)
 
 ----------
 
@@ -133,7 +133,7 @@ Clickable images into a gallery with simple back/ forward buttons, an image coun
 ## Deployment
 
 - Created a repository in GitHub - [https://github.com/DavidHubber/milestone-1] (https://github.com/DavidHubber/milestone-1)
-- Commited a '[README.md] (https://github.com/DavidHubber/milestone-1/blob/master/README.md)' Markdown file and uploaded initial commit.
+- Commited a ['README.md'] (https://github.com/DavidHubber/milestone-1/blob/master/README.md) Markdown file and uploaded initial commit.
 - Activated GitHub Pages via the repository’s settings.
 
 ----------
