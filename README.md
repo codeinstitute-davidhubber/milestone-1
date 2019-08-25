@@ -78,17 +78,17 @@ transform: translate(-50%, -50%);
 
 #####Browser Testing via:
 
- - [Google Chrome] (https://www.google.com/chrome/)
- - [Mozilla Firefox] (https://www.mozilla.org/en-GB/firefox/)
- - [Safari] (https://www.apple.com/safari/)
- - [Vivaldi] (https://vivaldi.com/)
+ - [Google Chrome](https://www.google.com/chrome/)
+ - [Mozilla Firefox](https://www.mozilla.org/en-GB/firefox/)
+ - [Safari](https://www.apple.com/safari/)
+ - [Vivaldi](https://vivaldi.com/)
 
 #####Device Testing via:
 
- - [iPad Pro 11-inch] (https://www.apple.com/ipad-pro/specs/)
- - [iPhone Xr] (https://www.apple.com/iphone-xr/specs/)
- - [iMac Pro] (https://www.apple.com/imac-pro/specs/)
- - [Chrome DevTools] (https://developers.google.com/web/tools/chrome-devtools/)
+ - [iPad Pro 11-inch](https://www.apple.com/ipad-pro/specs/)
+ - [iPhone Xr](https://www.apple.com/iphone-xr/specs/)
+ - [iMac Pro](https://www.apple.com/imac-pro/specs/)
+ - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
 
 ----------
 
@@ -115,33 +115,27 @@ Clickable images into a gallery with simple back/ forward buttons, an image coun
 
 ## Technologies
 
-* [HTML] (https://www.w3schools.com/whatis/whatis_html.asp) (Hyper Text Markup Language): The standard markup language for creating web pages and web applications.
-* [CSS] (https://www.w3schools.com/whatis/whatis_css.asp) (Cascading Style Sheets): A style sheet language used for describing the presentation of a document written in a markup language like HTML. 
-* [Bootstrap] (href="https://getbootstrap.com/): A CSS Framework for developing responsive and mobile-first websites.
-* [GitHub] (href="https://github.com/): A web-based hosting service for version control using Git.
+* [HTML](https://www.w3schools.com/whatis/whatis_html.asp) (Hyper Text Markup Language): The standard markup language for creating web pages and web applications.
+* [CSS](https://www.w3schools.com/whatis/whatis_css.asp) (Cascading Style Sheets): A style sheet language used for describing the presentation of a document written in a markup language like HTML. 
+* [Bootstrap](href="https://getbootstrap.com/): A CSS Framework for developing responsive and mobile-first websites.
+* [GitHub](href="https://github.com/): A web-based hosting service for version control using Git.
 * [Google Chrome Developer Tools] (https://www.google.com/chrome/dev/): Used to view & test cutting-edge web platform APIs with the use of developer tools.
-* [Dreamweaver] (https://www.adobe.com/products/dreamweaver.html) (Adobe): A web design and development application that uses both a visual design surface known as Live View and a code editor.
-* [Photoshop] (https://www.adobe.com/products/photoshop.html) (Adobe): A raster graphics editor developed and published by Adobe Systems for macOS and Windows
-* [Macdown] (https://macdown.uranusjr.com/): An Open source Markdown editor for macOS.
-* [Balsamiq] (https://balsamiq.com/): A rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard, but using a computer.
-* [NXPowerLight Desktop] (https://www.neuxpower.com/nxpowerlite-desktop/): A file compression tool use for compressing such files as JPGs & PDFs.
-* [FontAwesome] (https://fontawesome.com/): A font and icon toolkit based on CSS and LESS.
-* [Google Fonts] (https://fonts.google.com/): A library of over 800 libre licensed fonts.
+* [Dreamweaver](https://www.adobe.com/products/dreamweaver.html) (Adobe): A web design and development application that uses both a visual design surface known as Live View and a code editor.
+* [Photoshop](https://www.adobe.com/products/photoshop.html) (Adobe): A raster graphics editor developed and published by Adobe Systems for macOS and Windows
+* [Macdown](https://macdown.uranusjr.com/): An Open source Markdown editor for macOS.
+* [Balsamiq](https://balsamiq.com/): A rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard, but using a computer.
+* [NXPowerLight Desktop](https://www.neuxpower.com/nxpowerlite-desktop/): A file compression tool use for compressing such files as JPGs & PDFs.
+* [FontAwesome](https://fontawesome.com/): A font and icon toolkit based on CSS and LESS.
+* [Google Fonts](https://fonts.google.com/): A library of over 800 libre licensed fonts.
 
 ----------
 
 ## Deployment
 
-- Created a repository in GitHub - [https://github.com/DavidHubber/milestone-1] (https://github.com/DavidHubber/milestone-1)
-- Commited a ['README.md'] (https://github.com/DavidHubber/milestone-1/blob/master/README.md) Markdown file and uploaded initial commit.
+- Created a repository in GitHub - [https://github.com/DavidHubber/milestone-1](https://github.com/DavidHubber/milestone-1)
+- Commited a [README.md](https://github.com/DavidHubber/milestone-1/blob/master/README.md) Markdown file and uploaded initial commit.
 - Activated GitHub Pages via the repository’s settings.
 
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 ----------
 
 ## Acknowledgements
@@ -161,37 +155,37 @@ Mouse Memoirs - [Brian J. Bonislawsky](https://www.1001fonts.com/search.html?sea
 	- Background image (sun) by
 [macrovector](http://www.freepik.com")
 
-	- Header image (band members) via [UI Here] (https://www.uihere.com/free-cliparts/the-monkees-music-the-headquarters-sessions-clip-art-pop-6420452)
+	- Header image (band members) via [UI Here](https://www.uihere.com/free-cliparts/the-monkees-music-the-headquarters-sessions-clip-art-pop-6420452)
 
-	- Guitar logo via [The Monkees] (https://www.monkees.com/)
+	- Guitar logo via [The Monkees](https://www.monkees.com/)
 
-	- Responsive mockup [Tech&All] (https://techandall.com/shadow-series-apple-idevices/)
+	- Responsive mockup [Tech&All](https://techandall.com/shadow-series-apple-idevices/)
 
 - **Album Art**
 
 	- More of The Monkees - U.S. Fair Use laws
 
-	- The Birds, The Bees & The Monkees - [Colgems] (https://en.wikipedia.org/wiki/Colgems_Records)
+	- The Birds, The Bees & The Monkees - [Colgems](https://en.wikipedia.org/wiki/Colgems_Records)
 
-	- The Monkees - [AllMusic.com] (https://www.allmusic.com/album/r13312)
+	- The Monkees - [AllMusic.com](https://www.allmusic.com/album/r13312)
 
-	- Pisces, Aquarius, Capricorn & Jones Ltd - [Colgems] (https://en.wikipedia.org/wiki/Colgems_Records)
+	- Pisces, Aquarius, Capricorn & Jones Ltd - [Colgems](https://en.wikipedia.org/wiki/Colgems_Records)
 
-	- Headquarters - [Colgems] (https://en.wikipedia.org/wiki/Colgems_Records)
+	- Headquarters - [Colgems](https://en.wikipedia.org/wiki/Colgems_Records)
 
 - **Gallery Album Art**
 
-	- All images - [Sunshine Factory] (https://monkees.coolcherrycream.com/)
+	- All images - [Sunshine Factory](https://monkees.coolcherrycream.com/)
 
 
 **Scripts**
 
-Audio (Amplitude) - [521 Dimensions] (https://521dimensions.com)
+Audio (Amplitude) - [521 Dimensions](https://521dimensions.com)
 
-Image Gallery (FancyBox) - [FancyApps] (https://github.com/fancyapps)
+Image Gallery (FancyBox) - [FancyApps](https://github.com/fancyapps)
 
 
 
 **Video**
 
-I'm a Believer - [Daily Motion] (https://www.dailymotion.com/video/xppgv4)
+I'm a Believer - [Daily Motion](https://www.dailymotion.com/video/xppgv4)
