@@ -500,6 +500,57 @@ a.scrollArrow span {
     cursor:         zoom-in;
 }
 
+/* contact */
+
+.form-control {
+    font-size: 1rem;
+    font-weight: 900;
+
+    display: block;
+
+    width: 100%;
+    height: 48px;
+
+    text-transform: uppercase;
+
+    color: #f9ac3d;
+    border: 0;
+    border-bottom: 4px solid #f9ac3d;
+    background-color: transparent;
+}
+
+.form-control:focus {
+    font-size: 1rem;
+    font-weight: 900;
+
+    display: block;
+
+    width: 100%;
+    height: 48px;
+
+    text-transform: uppercase;
+
+    color: #653419;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #f9ac3d !important;
+}
+
+:-ms-input-placeholder {
+    color: #f9ac3d !important;
+}
+
+::-ms-input-placeholder {
+    color: #f9ac3d !important;
+}
+
+#send .btn {
+    font-size: 30px;
+    line-height: 0;
+}
+
 /* footer */
 
 footer.footer-overlay {
@@ -519,9 +570,10 @@ footer .fa {
 
     text-align: center;
 
-    color: #192346;;
+    color: #192346;
     border: 2px solid #192346;
     border-radius: 100%;
+    ;
 }
 
 .copyright {
@@ -553,16 +605,4 @@ footer .fa {
         margin-top: 35px;
         margin-left: -12px;
     }
-}
-
-/* dhstudio ribbon */
-
-.ribbon {
-    height: 5px;
-
-    background-image: url(../img/ribbon.png);
-    background-repeat: repeat-x;
-    -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
-       -moz-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
-            box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .2);
 }
