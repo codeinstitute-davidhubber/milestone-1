@@ -20,7 +20,7 @@ User-Centric Frontend Development Milestone Project - Code Institute.
 
 ## Demo
 
-A live demo can be found [HERE](https://davidhubber.github.io/milestone-1/index.html)
+A live demo can be found [HERE](https://codeinstitute-davidhubber.github.io/milestone-1/index.html)
 
 Here is how the site will look on different devices [![mockup.png](https://i.postimg.cc/fRbW6FPY/mockup.png)](https://postimg.cc/qz9dKm47)
 
@@ -108,18 +108,18 @@ Contact section added, although, no functionality at this time.
 
 ## Features
 
-* [Navigation](https://davidhubber.github.io/milestone-1/index.html#pageTop)
+* [Navigation](https://codeinstitute-davidhubber.github.io/milestone-1/index.html#pageTop)
 Simple collapsable and fixed navbar.
-* [Intro section](https://davidhubber.github.io/milestone-1/index.html#pageTop)
+* [Intro section](https://codeinstitute-davidhubber.github.io/milestone-1/index.html#pageTop)
 Colourful 60's style background with an image depicting The Monkees.
-* [About section](https://davidhubber.github.io/milestone-1/index.html#band) 
+* [About section](https://codeinstitute-davidhubber.github.io/milestone-1/index.html#band) 
 Four rotating cards each with an image of a band member on the fronside and a limited bio on the flipside. 
-* [music/ video section](https://davidhubber.github.io/milestone-1/index.html#audio)
+* [music/ video section](https://codeinstitute-davidhubber.github.io/milestone-1/index.html#audio)
  Both players are also very simple; 'click & play', with standard player buttons.
-* [Gallery/ Album Art section](https://davidhubber.github.io/milestone-1/index.html#albumArt)
+* [Gallery/ Album Art section](https://codeinstitute-davidhubber.github.io/milestone-1/index.html#albumArt)
 Clickable images into a gallery with simple back/ forward buttons, an image counter, the ability to view all images in a side panel and play button to enable a 'slideshow' effect.
-* [Contact form](https://davidhubber.github.io/milestone-1/index.html#contact) Simple contact form (No functionality).
-* [Footer section](https://davidhubber.github.io/milestone-1/index.html#footer) Containing brief, factual information about the band, and social media icons.
+* [Contact form](https://codeinstitute-davidhubber.github.io/milestone-1/index.html#contact) Simple contact form (No functionality).
+* [Footer section](https://codeinstitute-davidhubber.github.io/milestone-1/index.html#footer) Containing brief, factual information about the band, and social media icons.
 
 ----------
 
